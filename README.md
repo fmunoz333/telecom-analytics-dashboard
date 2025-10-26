@@ -92,7 +92,7 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 **Purpose**: Monitor network load, quality of service (QoS), and capacity utilization.
 
-![](./screenshots/2network_performance_kpis.png)
+![Dashboard](./screenshots/2network_performance_kpis.png)
 
 
 **Key Metrics**:
