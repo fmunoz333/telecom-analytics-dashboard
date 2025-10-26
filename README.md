@@ -73,6 +73,7 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 ![](./screenshots/1customer_churn_prediction_analysis.png)
 
+
 **Key Visualizations**:
 - **Churn Rate KPI Card**: Overall churn rate at 14.49%
 - **Plan-Based Segmentation**: 
@@ -90,6 +91,9 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 ### 2️⃣ Network Performance KPIs
 
 **Purpose**: Monitor network load, quality of service (QoS), and capacity utilization.
+
+![](./screenshots/2network_performance_kpis.png)
+
 
 **Key Metrics**:
 
@@ -112,6 +116,9 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 **Purpose**: Categorize and analyze revenue streams to maximize profitability.
 
+![](./screenshots/3revenue_analysis.png)
+
+
 **Revenue Breakdown**:
 ```
 Total Revenue: $198.19K
@@ -133,6 +140,8 @@ Total Revenue: $198.19K
 ### 4️⃣ Geographic Coverage Visualization
 
 **Purpose**: Reveal regional trends in usage, churn, and revenue generation.
+
+![](./screenshots/4coverage.png)
 
 **Top Performing States by Revenue**:
 1. 🥇 Michigan (MI): $4,400
