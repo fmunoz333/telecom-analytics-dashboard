@@ -50,6 +50,7 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 | **States Covered** | 50+ |
 | **Dashboard Pages** | 4 |
 
+- [Return](#table-of-contents)
 ---
 
 ## ⚡ Key Features
