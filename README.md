@@ -15,7 +15,7 @@
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
 - [Dashboard Pages](#-dashboard-pages)
-- [Role & Responsibilities](#-role--responsibilities)
+- [Role & Responsibilities](#role--responsibilities)
 - [Business Challenge](#-business-challenge)
 - [Implementation Process](#-implementation-process)
 - [Results & Impact](#-results--impact)
@@ -27,7 +27,6 @@
 - [License](#-license)
 - [Contact](#-contact)
 
-- [Role & Responsibilities](#-role-&-responsibilities)
 ---
 
 ## 🎯 Project Overview
