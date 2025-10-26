@@ -263,7 +263,6 @@ Data Model Structure:
 **Tools & Techniques**:
 - Power Query M for ETL
 - DAX for calculated measures
-- Star schema dimensional modeling (Kimball methodology)
 
 ---
 
