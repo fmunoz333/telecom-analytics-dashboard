@@ -71,7 +71,7 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 **Purpose**: Identify why customers leave and predict who might churn next.
 
-(./assets/1customer_churn_prediction_analysis.png)
+![](assets/1customer_churn_prediction_analysis.png)
 
 **Key Visualizations**:
 - **Churn Rate KPI Card**: Overall churn rate at 14.49%
