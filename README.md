@@ -161,7 +161,7 @@ Total Revenue: $198.19K
 
 ## 👨‍💼 Role & Responsibilities
 
-As the **Lead Business Intelligence Analyst**, I was responsible for:
+For this project I was responsible for the end-to-end design, planning, and execution of this telecommunications analytics dashboard. My key responsibilities included:
 
 ### Strategic Planning
 - 🎯 Collaborated with stakeholders to define business requirements and KPIs
