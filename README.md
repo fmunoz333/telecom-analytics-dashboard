@@ -351,13 +351,9 @@ CALCULATE(
 **Deployment Activities**:
 - Published to Power BI Service workspace
 - Configured row-level security for 5 user roles
-- Set up incremental refresh (daily at 6 AM)
-- Integrated with Microsoft Teams for notifications
 
 **Training & Documentation**:
 - Created user guide with navigation instructions
-- Conducted 3 training sessions (50+ attendees)
-- Developed video tutorials for self-service learning
 - Established support channel for ongoing questions
 
 ---
