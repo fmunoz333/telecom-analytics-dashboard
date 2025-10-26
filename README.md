@@ -6,7 +6,7 @@
 
 > **Transforming telecommunications data into actionable business intelligence through comprehensive analytics and predictive insights.**
 
-![Dashboard Preview](./assets/dashboard-preview.png)
+![Dashboard Preview](./assets/preview.png)
 
 ---
 
