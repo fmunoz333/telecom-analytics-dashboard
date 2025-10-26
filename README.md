@@ -27,6 +27,7 @@
 - [License](#-license)
 - [Contact](#-contact)
 
+- [Role & Responsibilities](#-role-&-responsibilities)
 ---
 
 ## 🎯 Project Overview
