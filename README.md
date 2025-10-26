@@ -20,7 +20,6 @@
 - [Implementation Process](#-implementation-process)
 - [Results & Impact](#-results--impact)
 - [Lessons Learned](#-lessons-learned)
-- [Contact](#-contact)
 
 ---
 
@@ -547,7 +546,7 @@ For telecommunications companies implementing this solution:
 
 **⭐ If you find this project useful, please consider giving it a star! ⭐**
 
-Made with ❤️ and ☕ by [Your Name]
+Made with ❤️ and ☕ by Fernando Munoz
 
 [⬆ Back to Top](#-telecommunications-network-analysis-dashboard)
 
