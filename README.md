@@ -1,7 +1,14 @@
+> **Portfolio Project — Skill Demonstration**
+> Built on a publicly available telecommunications training dataset (3,333 customer records,
+> widely used in Power BI and data analytics coursework). This is not derived from a client
+> engagement. The analytical questions, KPI design, and dashboard architecture reflect 30+ years
+> of direct experience in the telecom industry — these are the metrics that actually matter to
+> commercial and operations leadership.
+
 # 📡 Telecommunications Network Analysis Dashboard
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow.svg)](https://powerbi.microsoft.com/)
-[![Status](https://img.shields.io/badge/Status-Production-success.svg)]()
+[![Status](https://img.shields.io/badge/Status-Portfolio-blue.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 > **Transforming telecommunications data into actionable business intelligence through comprehensive analytics and predictive insights.**
@@ -15,10 +22,10 @@
 - [Project Overview](#-project-overview)
 - [Key Features](#-key-features)
 - [Dashboard Pages](#-dashboard-pages)
-- [Role & Responsibilities](#-role--responsibilities)
-- [Business Challenge](#-business-challenge)
-- [Implementation Process](#-implementation-process)
-- [Results & Impact](#-results--impact)
+- [Dashboard Construction Process](#-dashboard-construction-process)
+- [The Analytical Questions](#-the-analytical-questions)
+- [Development Process](#-development-process)
+- [Technical Outcomes](#-technical-outcomes)
 - [Lessons Learned](#-lessons-learned)
 
 ---
@@ -67,10 +74,9 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 ![](./screenshots/1customer_churn_prediction_analysis.png)
 
-
 **Key Visualizations**:
 - **Churn Rate KPI Card**: Overall churn rate at 14.49%
-- **Plan-Based Segmentation**: 
+- **Plan-Based Segmentation**:
   - International Plan: 90.31% churn rate (critical risk segment)
   - Voice Mail Plan: 72.34% retention rate
 - **Churn Drivers Analysis**:
@@ -88,7 +94,6 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 ![Dashboard](./screenshots/2network_performance_kpis.png)
 
-
 **Key Metrics**:
 
 | Time Period | Calls | Minutes | Charges |
@@ -102,7 +107,7 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 - Call volume trends by account length (customer lifecycle analysis)
 - Network load indicators
 
-**Business Impact**: Optimizes resource allocation and infrastructure investment decisions.
+**Business Impact**: Supports resource allocation and infrastructure investment decisions.
 
 ---
 
@@ -112,14 +117,13 @@ This multi-dimensional dashboard enables **data-driven decision-making** by prov
 
 ![](./screenshots/3revenue_analysis.png)
 
-
 **Revenue Breakdown**:
 ```
 Total Revenue: $198.19K
-├── Day Charges:    $101.87K (51.4%)
-├── Evening Charges: $56.93K (28.7%)
-├── Night Charges:   $30.14K (15.2%)
-└── Intl Charges:     $9.24K  (4.7%)
+├── Day Charges:     $101.87K (51.4%)
+├── Evening Charges:  $56.93K (28.7%)
+├── Night Charges:    $30.14K (15.2%)
+└── Intl Charges:      $9.24K  (4.7%)
 ```
 
 **Key Visualizations**:
@@ -153,14 +157,14 @@ Total Revenue: $198.19K
 
 ---
 
-## 👨‍💼 Role & Responsibilities
+## 👨‍💼 Dashboard Construction Process
 
-For this project I was responsible for the end-to-end design, planning, and execution of this telecommunications analytics dashboard. My key responsibilities included:
+The dashboard was designed to answer the questions a telecom CMO or VP of Operations would actually bring to a weekly review.
 
 ### Strategic Planning
-- 🎯 Collaborated with stakeholders to define business requirements and KPIs
+- 🎯 Defined KPI framework drawing on 30 years of telecom industry experience
 - 📋 Designed dashboard architecture addressing four distinct business domains
-- 🔄 Established metrics alignment with organizational objectives
+- 🔄 Established metrics alignment with industry best practices
 
 ### Technical Execution
 - 🛠️ **End-to-end dashboard development** using Power BI Desktop
@@ -169,84 +173,71 @@ For this project I was responsible for the end-to-end design, planning, and exec
 - 🔍 Performance optimization and query tuning
 
 ### Analytics & Reporting
-- 📈 Generated regular analytical reports on emerging trends
-- 🎯 Identified actionable insights from data patterns
-- 📊 Delivered executive presentations on key findings
-- 🔄 Implemented continuous improvement based on user feedback
+- 📈 Generated analytical reports on emerging patterns within the dataset
+- 🎯 Identified actionable insights from data analysis
+- 📊 Developed executive documentation on key findings
 
-### Deployment & Maintenance
+### Deployment
 - 🚀 Published dashboards to Power BI Service
 - 🔐 Configured security and access controls
-- 📚 Created user documentation and training materials
-- 🔄 Established automated data refresh schedules
+- 📚 Created user documentation
 
 ---
 
-## 🎯 Business Challenge
+## 🔍 The Analytical Questions
 
-### The Problem
+These are the questions this dashboard was built to answer — the same questions telecommunications executives bring to weekly operational reviews. They reflect 30+ years of direct industry experience, including roles at BellSouth, Telefónica, Amdocs, and CNT EP.
 
-The telecommunications company faced critical operational and strategic challenges:
+### Customer Retention
+- What is the current churn rate, and which customer segments are at highest risk?
+- Which behavioral signals — service call frequency, plan type, usage levels — precede a customer's decision to leave?
+- How does plan enrollment (International, Voice Mail) correlate with retention outcomes?
 
-#### 1. **High Customer Churn**
-- Churn rate of **14.49%** eroding annual revenue
-- Lack of early warning system for at-risk customers
-- Reactive retention strategies vs. proactive intervention
+### Network & Usage
+- How is traffic distributed across day, evening, and night periods?
+- Where are the capacity utilization peaks, and how do they map to revenue generation?
+- Which account-length cohorts show the heaviest usage, and what does that imply for infrastructure planning?
 
-#### 2. **Limited Visibility**
-- No consolidated view across customer behavior, network performance, and revenue
-- Siloed data across departments (Marketing, Operations, Finance)
-- Manual reporting requiring 5+ hours per weekly analysis
+### Revenue Attribution
+- Which service types are driving revenue, and which are underperforming relative to their subscriber base?
+- Is international service generating proportional revenue relative to its churn risk?
+- Where do pricing optimization opportunities exist within the existing service mix?
 
-#### 3. **Revenue Leakage**
-- Insufficient understanding of revenue distribution across services
-- Underperforming product lines not identified
-- No systematic pricing optimization framework
+### Geographic Intelligence
+- Which states have the highest churn concentration?
+- Where should retention resources and network investment be focused?
+- What regional patterns in usage and revenue are invisible at the national level?
 
-#### 4. **Operational Inefficiencies**
-- Unable to correlate service quality metrics with churn probability
-- Network resource allocation based on assumptions vs. data
-- Geographic expansion decisions lacking analytical foundation
-
-### Project Objectives
-
-✅ Develop predictive churn model to identify at-risk customers  
-✅ Create real-time operational dashboard for network performance monitoring  
-✅ Enable revenue optimization through service-level analysis  
-✅ Provide geographic intelligence for market expansion decisions  
-✅ Reduce reporting time from hours to seconds  
-✅ Establish data-driven decision-making culture  
+These are not hypothetical questions invented for this exercise. They are the standing agenda items of commercial and operations leadership in any mid-to-large telecommunications operator.
 
 ---
 
-## 🔧 Implementation Process
+## 🔧 Development Process
 
-### Phase 1: Discovery & Requirements (Week 1-2)
+### Phase 1: KPI Design & Architecture (Week 1–2)
 
 **Activities**:
-- Conducted stakeholder interviews across Marketing, Operations, Finance
-- Performed current-state analysis of existing reporting processes
-- Defined success criteria and KPIs
-- Created wireframes and mockups for approval
+- Defined KPI framework based on telecom industry experience
+- Established success criteria for each dashboard page
+- Designed wireframes for all four pages
 
 **Deliverables**:
-- Requirements specification document
 - KPI dictionary with business definitions
 - Dashboard wireframes (4 pages)
+- Data model specification
 
 ---
 
-### Phase 2: Data Architecture & Preparation (Week 3-4)
+### Phase 2: Data Preparation & Modeling (Week 3–4)
 
 **Activities**:
-- **Data Source Integration**: Consolidated data from CRM, billing, and network systems
-- **ETL Development**: Built Power Query transformations for data cleansing
+- **Data Source**: Public telecommunications training dataset (CSV format), containing 3,333 customer records and associated call detail data
+- **ETL Development**: Built Power Query M transformations for data cleansing, null handling, type standardization, and key relationship validation
 - **Data Modeling**: Implemented star schema with fact and dimension tables
-- **Quality Assurance**: Established validation rules and data quality checks
+- **Quality Assurance**: Established validation rules and data quality checks at each transformation step
 
-**Key Technical Decisions**:
+**Data Model Structure**:
 ```
-Data Model Structure:
 ├── Fact_Calls (897K+ records)
 ├── Dim_Customer (3,333 customers)
 ├── Dim_Geography (51 states)
@@ -260,7 +251,7 @@ Data Model Structure:
 
 ---
 
-### Phase 3: Dashboard Development (Week 5-7)
+### Phase 3: Dashboard Development (Week 5–7)
 
 #### Page 1: Customer Churn Prediction
 ```DAX
@@ -326,124 +317,102 @@ CALCULATE(
 ### Phase 4: Testing & Optimization (Week 8)
 
 **Performance Optimization**:
-- Reduced load time from 12s to <2s through:
+- Reduced load time from 12s to under 2s through:
   - Strategic use of calculated columns vs. measures
   - Implementation of aggregation tables
   - Query folding optimization in Power Query
   - Removal of unnecessary relationships
+  - Data model size reduced ~40% through selective column loading
 
-**User Acceptance Testing**:
-- Conducted UAT sessions with 15 stakeholders
-- Collected feedback on usability and insights
-- Iterated on visual design (reduced from 20+ to 5-7 visuals per page)
-- Validated data accuracy against source systems (100% match)
+**Design Validation**:
+- Conducted iterative visual design review and refinement
+- Reduced visuals per page from 20+ to 5–7 (progressive disclosure pattern)
+- Validated all calculations against source dataset (100% accuracy)
 
 ---
 
-### Phase 5: Deployment & Training (Week 9-10)
+### Phase 5: Deployment Architecture (Week 9–10)
 
-**Deployment Activities**:
+**Deployment**:
 - Published to Power BI Service workspace
-- Configured row-level security for 5 user roles
+- Configured row-level security supporting 5 user role hierarchy
 
-**Training & Documentation**:
-- Created user guide with navigation instructions
-- Established support channel for ongoing questions
-
----
-
-## 📈 Results & Impact
-
-### Quantifiable Business Outcomes
-
-#### 🎯 Customer Retention Improvements
-
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **Time to Identify At-Risk Customers** | 30 days | Real-time | 100% |
-| **Retention Campaign Precision** | 45% | 85% | +40% |
-| **Churn Prediction Accuracy** | N/A | 78% | New Capability |
-
-**Key Findings**:
-- 🚨 **Critical Discovery**: International Plan customers have **90.31% churn rate**
-- 📞 Customers making **4+ service calls** show 3x higher churn probability
-- 🗺️ Identified **3 states** with >20% churn requiring immediate intervention
-
-**Expected Annual Impact**: **$500K-$1M** in revenue protection through proactive retention
+**Documentation**:
+- Created navigation and user guide
+- Documented DAX measures and data model design decisions
 
 ---
 
-#### 💰 Revenue Optimization
+## 📈 Technical Outcomes
 
-**Revenue Insights Gained**:
+### Performance Engineering
+
+The most significant technical challenge was load time. The initial model loaded in approximately 12 seconds — unacceptable for a production dashboard. A combination of approaches brought this below 2 seconds.
+
+| Optimization | Technique | Effect |
+|---|---|---|
+| **Calculation strategy** | Moved iterative logic from calculated columns to measures | Reduced model size and evaluation cost |
+| **Aggregation tables** | Pre-aggregated high-cardinality fact data | Eliminated full-table scan overhead |
+| **Query folding** | Ensured Power Query transformations fold back to source | Reduced in-memory processing |
+| **Relationship pruning** | Removed unnecessary table relationships | Improved DAX evaluation speed |
+| **Column selection** | Loaded only required columns from source | Reduced model size by approximately 40% |
+
+**Outcome**: Load time reduced from ~12 seconds to under 2 seconds.
+
+---
+
+### Data Architecture
+
+**Star schema** with 5 tables:
+
 ```
-Total Analyzed Revenue: $198,190
-├── Peak Revenue Period: Day charges (53.91%)
-├── Underperforming: International service (4.7%)
-└── Opportunity: Voice Mail Plan upselling
+Fact_Calls (897K+ records)       — call-level granularity
+Dim_Customer (3,333 records)     — customer attributes, plan type, churn flag
+Dim_Geography (51 states)        — state codes and regional groupings
+Dim_Date                         — time intelligence support
+Dim_Service_Type                 — Day / Evening / Night / International
 ```
 
-**Business Actions Enabled**:
-- 📊 Pricing strategy optimization for peak usage periods
-- 🎯 $50K+ annual revenue expansion through international service marketing
-- 📈 15% increase in Voice Mail Plan subscriptions through targeted campaigns
-
-**ROI**: Dashboard development cost recovered in **2.3 months** through revenue optimization
-
----
-
-#### ⚡ Operational Efficiency
-
-| Process | Before | After | Time Saved |
-|---------|--------|-------|------------|
-| **Weekly Reporting** | 5 hours | 10 minutes | 98% |
-| **Ad-hoc Analysis** | 2-3 days | 5 minutes | 99% |
-| **Executive Briefings** | 8 hours prep | 30 minutes | 94% |
-
-**Network Optimization**:
-- Resource allocation optimized based on actual usage (37% day, 37% eve, 25% night)
-- Capacity planning accuracy improved by **40%**
-- Infrastructure investment decisions supported by trend analysis
-
-**Cost Savings**: **$75K annually** in reduced analyst time and improved efficiency
+**ETL pipeline** (Power Query M):
+- Null and blank value handling across all columns
+- Data type standardization
+- State code normalization for geographic mapping
+- Calculated key relationships validated against source
 
 ---
 
-#### 📊 Strategic Decision Support
+### DAX Measure Library
 
-**Enabled Capabilities**:
-- ✅ Real-time visibility vs. monthly retrospective reporting
-- ✅ Proactive customer intervention vs. reactive damage control
-- ✅ Data-driven expansion decisions vs. gut-feel strategy
-- ✅ Self-service analytics reducing IT dependency by **85%**
+Core measures developed across four analytical domains:
 
-**Cultural Transformation**:
-- Established data-driven decision-making across all departments
-- Dashboard adoption rate: **92%** of target users (active weekly users)
-- Average user session time: **12 minutes** (high engagement)
+- **Churn analysis**: Churn Rate, Churn Rate by Plan, Churn Rate by State, High-Risk Segment Flag
+- **Network performance**: Total Calls by Period, Call Distribution %, Minutes per Call Average
+- **Revenue attribution**: Revenue by Service Type, Revenue Mix %, International Revenue Ratio
+- **Geographic aggregation**: State Total Charge, State Churn Rate, Regional Ranking
 
 ---
 
-### Client Value Proposition
+### Dashboard Design Architecture
 
-For telecommunications companies implementing this solution:
+| Design Decision | Approach | Rationale |
+|---|---|---|
+| **Page count** | 4 dedicated pages | One analytical question per page — avoids cognitive overload |
+| **Visual density** | 5–7 per page (reduced from 20+) | Comprehension drops sharply above 7 visuals per page |
+| **Drill-through** | Enabled on geographic page | Preserves summary clarity while allowing detail exploration |
+| **Mobile layouts** | Separate mobile view per page | Power BI Service is frequently accessed on mobile devices |
+| **RLS architecture** | 5 user role hierarchy | Reflects a typical telecom operator org structure |
 
-#### Immediate Benefits (Month 1-3)
-- 📊 Complete visibility into customer, revenue, and operational metrics
-- 🎯 Identification of top 10% at-risk customers for immediate action
-- 💡 3-5 quick-win opportunities for revenue optimization
+---
 
-#### Medium-Term Impact (Month 4-12)
-- 📈 5-10% reduction in overall churn rate
-- 💰 10-15% improvement in marketing campaign ROI
-- ⚡ 20-30% reduction in operational reporting overhead
+### Analytical Findings from the Dataset
 
-#### Long-Term Strategic Value (Year 2+)
-- 🚀 Competitive advantage through faster market response
-- 📊 Foundation for advanced analytics (ML/AI integration)
-- 🎯 Customer lifetime value improvement of 15-25%
+These are patterns observed in the training data — presented as analytical output, not as client outcomes.
 
-**Expected Total ROI**: **300-500%** over 24 months
+- **International Plan churn** is disproportionately high at **90.31%** — the single most actionable finding in the dataset, regardless of its origin. Any real operator running this analysis would treat this as a priority signal.
+- **Customer service call frequency** is a strong leading indicator: customers with 4+ service calls show approximately 3× the churn rate of those with 0–1 calls.
+- **3 states** show churn rates above 20%, while the majority cluster between 10–18% — a meaningful geographic dispersion for a retention team.
+- **Day charges represent 53.91% of revenue** despite being only 37.33% of call volume — a pricing signal worth investigating in any revenue optimization exercise.
+- **Voice Mail Plan enrollment** correlates with 72.34% retention — the highest-retention segment in the dataset, and a potential model for bundling strategy.
 
 ---
 
@@ -454,85 +423,49 @@ For telecommunications companies implementing this solution:
 #### 1. **Data Quality is Non-Negotiable**
 **Challenge**: Initial data contained 15% missing values and inconsistent state codes.
 
-**Solution**: 
+**Solution**:
 - Implemented robust validation rules in Power Query
-- Created data quality dashboard for source system monitoring
-- Established data stewardship protocols
+- Created data quality checks at each transformation step
+- Established clear handling rules for null and blank values
 
-**Lesson**: Invest 30% of project time in data quality—it prevents 70% of downstream issues.
+**Lesson**: Invest approximately 30% of project time in data quality — it prevents the majority of downstream analytical errors.
 
 ---
 
 #### 2. **Simplicity Wins Over Complexity**
-**Challenge**: Initial designs included 20+ visuals per page, overwhelming users.
+**Challenge**: Initial designs included 20+ visuals per page, creating cognitive overload.
 
-**Solution**: 
-- User testing revealed optimal range: 5-7 visuals per page
-- Implemented "progressive disclosure" design pattern
-- Added drill-through pages for detailed analysis
+**Solution**:
+- Optimal range identified through iterative design review: 5–7 visuals per page
+- Implemented progressive disclosure pattern
+- Added drill-through pages for detail exploration without cluttering the summary view
 
-**Lesson**: "Perfect is the enemy of good"—iterative refinement based on user feedback is key.
+**Lesson**: Iterative refinement driven by clear design principles produces better outcomes than feature accumulation.
 
 ---
 
 #### 3. **Performance Optimization is Critical**
-**Challenge**: Initial dashboard load time was 12 seconds, causing user frustration.
+**Challenge**: Initial dashboard load time was approximately 12 seconds.
 
 **Solution**:
 - Implemented aggregation tables
 - Optimized DAX measures (removed row-context iterations)
-- Reduced data model size by 40% through selective column loading
+- Reduced data model size by approximately 40% through selective column loading
 
-**Result**: Load time reduced to <2 seconds, user satisfaction increased 60%.
+**Result**: Load time reduced to under 2 seconds.
 
-**Lesson**: Budget 20% of development time for performance testing and optimization.
+**Lesson**: Budget at least 20% of development time for performance testing and optimization — it is not optional for production-quality work.
 
 ---
 
-#### 4. **Mobile Experience Can't Be an Afterthought**
-**Challenge**: 35% of users accessed dashboard on mobile devices, but layout was desktop-optimized.
+#### 4. **Mobile Experience Requires Intentional Design**
+**Challenge**: Default desktop layouts render poorly on mobile devices.
 
 **Solution**:
-- Redesigned layouts using mobile-first principles
-- Created mobile-specific report pages
-- Tested on 5 different device sizes
+- Designed mobile-specific report pages for all four views
+- Tested across multiple device sizes
 
-**Lesson**: Design for smallest screen first, then scale up.
-
----
-
-### Business Value Delivered
-
-#### For Telecommunications Companies
-
-**1. Proactive Customer Retention**
-- **Before**: Reactive churn management, customers contacted after cancellation
-- **After**: Predictive intervention 2-3 weeks before churn event
-- **Impact**: $500K-$1M annual revenue protection
-
-**2. Revenue Growth Opportunities**
-- Identified Voice Mail Plan subscribers have 72.34% retention rate
-- International service revealed $50K+ untapped revenue potential
-- Data-driven pricing optimization for peak periods
-- **Impact**: 10-15% revenue growth in Year 1
-
-**3. Operational Excellence**
-- Network resources allocated based on actual usage patterns
-- Customer service capacity planning optimized
-- Geographic expansion decisions data-backed
-- **Impact**: $75K annual cost savings, 40% capacity planning accuracy
-
-**4. Cultural Transformation**
-- From monthly reports to real-time insights
-- Self-service analytics reduced IT dependency 85%
-- Cross-functional collaboration improved
-- **Impact**: Data-driven decision velocity increased 10x
-
-**5. Competitive Advantage**
-- Market response time reduced from months to days
-- Predictive capabilities vs. retrospective reporting
-- Enhanced customer experience through proactive service
-- **Impact**: Net Promoter Score improvement of 15 points
+**Lesson**: Mobile-first design is more efficient than retrofitting a desktop layout — plan for it in Phase 1, not after delivery.
 
 ---
 
