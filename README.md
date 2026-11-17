@@ -1,10 +1,11 @@
-> **Portfolio Project — Skill Demonstration**
-> Built on a publicly available telecommunications training dataset (3,333 customer records,
-> widely used in Power BI and data analytics coursework). This is not derived from a client
-> engagement. The analytical questions, KPI design, and dashboard architecture reflect 30+ years
-> of direct experience in the telecom industry — these are the metrics that actually matter to
-> commercial and operations leadership.
+> **Portfolio classification:** Portfolio project / skill demonstration  
+> **Purpose:** Demonstrate Power BI customer churn, network performance, revenue and geographic analytics.  
+> **Data / confidentiality:** The work uses a publicly available telecommunications training dataset and is not a client engagement.  
+> **Author:** Fernando Muñoz Rivadeneira · Quito, Ecuador  
+> **Related profile:** [Professional CV](https://fmunoz333.github.io/fernando-munoz-cv/) · [GitHub profile](https://github.com/fmunoz333)  
+> **Contact:** [fxmr.consult@gmail.com](mailto:fxmr.consult@gmail.com) · [LinkedIn](https://www.linkedin.com/in/fernando-munoz-4737571)
 
+---
 # 📡 Telecommunications Network Analysis Dashboard
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow.svg)](https://powerbi.microsoft.com/)
@@ -469,19 +470,6 @@ These are patterns observed in the training data — presented as analytical out
 
 ---
 
-## 👤 About the Author & Contact
-
-**Fernando Muñoz** — Senior Data Analyst / Project & Program Management Consultant  
-*30+ Years Leading Technology & Infrastructure Programs ($84M+ Portfolios)*
-
-- **PMP® Certified** | **Scrum Master (PSM I)** | **Six Sigma Black Belt**
-- 🌐 **Interactive Portfolio:** [fmunoz333.github.io/fernando-munoz-cv](https://fmunoz333.github.io/fernando-munoz-cv/)
-- 💼 **Services & Consulting:** [fmunoz333.github.io/professional-services](https://fmunoz333.github.io/professional-services/)
-- 📧 **Email:** [fxmr.consult@gmail.com](mailto:fxmr.consult@gmail.com)
-- 🔗 **LinkedIn:** [linkedin.com/in/fernando-munoz-4737571](https://www.linkedin.com/in/fernando-munoz-4737571)
-
----
-
 ## 🔖 Tags
 
 `power-bi` `data-analytics` `business-intelligence` `telecommunications` `dashboard` `data-visualization` `churn-prediction` `revenue-analysis` `kpi-dashboard` `dax` `power-query` `etl` `data-modeling`
@@ -492,6 +480,21 @@ These are patterns observed in the training data — presented as analytical out
 
 **⭐ If you find this project useful, please consider giving it a star! ⭐**
 
-Made with ❤️ and ☕ by Fernando Munoz
+Made by Fernando Munoz
+
+[⬆ Back to Top](#-telecommunications-network-analysis-dashboard)
 
 </div>
+
+---
+
+## Author & Professional Context
+
+**Fernando Muñoz Rivadeneira** — Data Analyst, Project & Program Manager, and Technology & Operations Leader with 30+ years of experience across telecommunications, IT infrastructure, PMO governance, operational improvement, risk management, and business intelligence.
+
+This repository is part of my professional portfolio. The classification and data provenance stated at the top of this README define how its results should be interpreted.
+
+- **Professional CV:** https://fmunoz333.github.io/fernando-munoz-cv/
+- **Professional Services:** https://fmunoz333.github.io/professional-services/
+- **LinkedIn:** https://www.linkedin.com/in/fernando-munoz-4737571
+- **Email:** fxmr.consult@gmail.com
